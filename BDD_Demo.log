@@ -1,0 +1,17 @@
+2020-04-20 16:06:45:482 [main] INFO bdd.runner.RunnerTest - Reading Configuration file Before Starting Features Execution
+2020-04-20 16:06:45:482 [main] INFO bdd.runner.RunnerTest - Base URL will used for Testing : https://reqres.in
+2020-04-20 16:06:45:907 [main] INFO stepdefs.Hooks - --------------------------------------------------------------------------------------------
+2020-04-20 16:06:45:907 [main] INFO stepdefs.Hooks - S C E N A R I O  'Get user by specifying ID'
+2020-04-20 16:06:45:907 [main] INFO stepdefs.Hooks - --------------------------------------------------------------------------------------------
+2020-04-20 16:06:45:907 [main] INFO stepdefs.Hooks - STARTING Scenario
+2020-04-20 16:06:46:064 [main] INFO stepdefs.StepDef - I have Base Rest API URL: https://reqres.in
+2020-04-20 16:06:46:095 [main] INFO stepdefs.StepDef - I send a GET request to url: "Base_URL+/api/users/2" containing body: 
+2020-04-20 16:06:49:727 [main] INFO stepdefs.StepDef - The Responce recived for GET request : {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+2020-04-20 16:06:49:789 [main] INFO stepdefs.StepDef - The Responce status Received is : 200
+2020-04-20 16:06:50:644 [main] INFO stepdefs.StepDef - Responce json body contain Frist name at "data.first_name" as Janet
+2020-04-20 16:06:50:669 [main] INFO stepdefs.StepDef - Responce json body contain last name at "data.last_name" as Weaver
+2020-04-20 16:06:50:693 [main] INFO stepdefs.StepDef - Responce json body contain email id at "data.email" as janet.weaver@reqres.in
+2020-04-20 16:06:50:694 [main] INFO stepdefs.Hooks - ENDING Scenario
+2020-04-20 16:06:50:694 [main] INFO stepdefs.Hooks - --------------------------------------------------------------------------------------------
+2020-04-20 16:06:50:695 [main] INFO stepdefs.Hooks - S C E N A R I O  result 'Get user by specifying ID' PASSED
+2020-04-20 16:06:50:695 [main] INFO stepdefs.Hooks - --------------------------------------------------------------------------------------------
